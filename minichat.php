@@ -23,7 +23,7 @@
 	
 
 <?php
-
+include("bdd.php");
 $rep = $bdd->query('SELECT pseudo, message, DATE_FORMAT(date_input, \'%d/%m/%Y - %H:%i:%s\') AS date FROM minichat ORDER BY ID DESC LIMIT 0, 10');
 
 while($donnees = $rep->fetch())
