@@ -23,14 +23,6 @@
 	
 
 <?php
-try
-{
-	$bdd = new PDO('mysql:host=localhost;dbname=test;charset=utf8', 'root', '');
-}
-catch (Exception $e)
-{
-	die('Erreur : ' . $e->getMessage());	
-}
 
 $rep = $bdd->query('SELECT pseudo, message, DATE_FORMAT(date_input, \'%d/%m/%Y - %H:%i:%s\') AS date FROM minichat ORDER BY ID DESC LIMIT 0, 10');
 
