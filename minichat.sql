@@ -25,7 +25,7 @@ CREATE TABLE `minichat` (
   `pseudo` varchar(255) NOT NULL,
   `message` varchar(255) NOT NULL,
   `date_input` datetime NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=30 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=30 DEFAULT CHARSET=utf-8;
 
 --
 -- Contenu de la table `minichat`
