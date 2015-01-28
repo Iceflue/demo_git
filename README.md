@@ -1,3 +1,2 @@
 # demo_git
-Une demo de git
-#test
+Ce projet est fait pour la réalistation de l'activité: Git & GitHub - Partie 2
